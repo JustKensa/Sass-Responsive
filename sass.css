@@ -1,0 +1,227 @@
+body {
+  color: white;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.hello img {
+  display: block;
+  width: 100%;
+}
+
+.hello span {
+  font-style: oblique;
+}
+
+.hello h1 {
+  font-size: 100px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: absolute;
+  left: 35%;
+}
+
+.main_nav {
+  background-color: #b4a8b4;
+  -webkit-column-count: 3;
+          column-count: 3;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.main_nav img {
+  width: 200px;
+}
+
+.main_nav h3 {
+  font-size: 30px;
+}
+
+.main_nav p {
+  font-size: 20px;
+}
+
+.parg_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-column-count: 4;
+          column-count: 4;
+  text-align: center;
+}
+
+.parg_main h2 {
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.parg_main p {
+  font-size: 30px;
+  text-align: center;
+}
+
+.parg_1 {
+  background-color: #8086c7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.parg_2 {
+  background-color: #bfc2f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.parg_3 {
+  background-color: #a5aaf7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.parg_4 {
+  background-color: #858df7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.bottom {
+  position: relative;
+}
+
+.bottom #mountsize {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bottom .slide {
+  position: absolute;
+  top: 0;
+}
+
+#back {
+  width: 5%;
+  left: 5%;
+  top: 50%;
+}
+
+#next {
+  width: 5%;
+  right: 5%;
+  top: 50%;
+}
+
+.newslet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #8086c7;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.newslet p {
+  font-size: 40px;
+  text-align: center;
+}
+
+.newslet .btn_send {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #b4a8b4;
+  width: 100%;
+}
+
+footer p {
+  font-size: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+  .hello h1 {
+    font-size: 50px;
+  }
+  .main_nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .parg_main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=sass.css.map */
